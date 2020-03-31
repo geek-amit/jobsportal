@@ -1,0 +1,89 @@
+body{
+	margin:10px;
+	background-size: 1200px;
+	/*padding: 2px;*/
+}
+.head{
+	border-radius: 10px;
+	border: 2px solid green;
+	color: #111;
+	background-color: red;
+}
+.left img{
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	display: inline-block;
+	border: 2px solid green;
+	border-radius: 20px;
+	height: 50px;
+	width: 50px;
+}
+.mid h1{
+	display: block;
+	width: 60%;
+	margin: 12px auto;
+	color: indigo;
+	/*border: 2px solid green;*/
+	top: 20px;
+	text-align: center;
+	background-color: pink;
+
+}
+.right{
+	position: absolute;
+	right: 30px;
+	top: 20px;    
+	display:inline-block;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	padding: 5px;
+}
+.nav a{
+	text-decoration: none;
+	padding: 8px;
+	font-size: 30px;
+	border:3px solid blue;
+	border-radius: 10px;
+	background-color: yellow;
+}
+.nav a:hover{
+	color: white;
+	background-color: green;
+	/*cursor: pointer;*/
+	/*overflow: hidden;*/
+}
+.home{
+	color: blue;
+	border:5px solid green;
+	border-radius: 20px; 
+}
+.latest{
+	border-radius: 5px;
+	border:2px solid green;
+	padding:5px;
+}
+.latest a{
+	font-size: 20px;
+	font-family: arial;	
+	/*text-decoration:none;	 */
+}
+.outer_div{
+	/*border:2px solid green;*/
+	float: left;
+
+	/*padding: 5px;*/
+}	
+.inner_div{
+	float: left;
+	border:2px solid red;
+	border-radius: 5px;
+	color: green;
+	/*padding: 5px;*/
+}
+.result{
+	background-color:red ;
+}
+.inner_div ul li{
+	color: black;
+}
